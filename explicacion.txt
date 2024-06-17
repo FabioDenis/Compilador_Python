@@ -1,0 +1,12 @@
+parsetab.py: Este archivo contiene las tablas de análisis generadas por yacc durante 
+ la compilación de las reglas gramaticales. Estas tablas se utilizan para parsear el código fuente de manera eficiente.
+ No debes modificar este archivo manualmente, ya que es generado automáticamente y puede ser sobrescrito si vuelves a 
+ compilar tus reglas gramaticales.
+
+pycache: Esta carpeta es creada por Python para almacenar archivos de caché compilados de los módulos importados. 
+Estos archivos ayudan a que los módulos se carguen más rápido en futuras ejecuciones del programa.
+ Puedes ignorar esta carpeta en la mayoría de los casos, ya que su contenido se maneja automáticamente por Python.
+
+parser.out: Este archivo contiene información sobre los conjuntos de elementos de las reglas 
+gramaticales y otros detalles internos del analizador sintáctico. Es útil para depurar problemas en las reglas gramaticales, 
+pero no es necesario para el funcionamiento normal del programa. Puedes eliminar este archivo si no lo necesitas para depurar.
